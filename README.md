@@ -1,2 +1,2 @@
 # Natour website template example from advanced css course
-# Access template url: geo-natours.netlify.app
+# Access template url: 'https://geo-natours.netlify.app/'
