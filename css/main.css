@@ -118,6 +118,14 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.u-margin-top--8 {
+  margin-top: 8rem;
+}
+
+.u-margin-top--10 {
+  margin-top: 10rem;
+}
+
 .btn:link, .btn:visited {
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -146,6 +154,13 @@ body {
 }
 .btn--white::after {
   background-color: #fff;
+}
+.btn--green {
+  color: #fff;
+  background-color: #55c57a;
+}
+.btn--green::after {
+  background-color: #55c57a;
 }
 .btn::after {
   content: "";
@@ -286,6 +301,8 @@ body {
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .card__picture--1 {
   background-image: linear-gradient(to right bottom, #ffbb00, #ff7730), url(../img/nat-5.jpg);
@@ -439,6 +456,6 @@ body {
 
 .tours-section {
   background-color: #f7f7f7;
-  padding: 25rem 0 50rem;
+  padding: 25rem 0 15rem;
   margin-top: -20vh;
 }/*# sourceMappingURL=main.css.map */
